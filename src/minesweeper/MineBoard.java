@@ -152,11 +152,15 @@ class MineBoard {
     private void spreadMines() {
         System.out.print ("How many mines do you want on the field? ");
         int minesToSpread = Integer.parseInt(input.nextLine());
+        if (minesToSpread < 0 || minesToSpread > 80) {
+            System.out.println("There are only 80 cells to spread mines");
+            spreadMines();
+        }
         while (minesToSpread != 0) {
             int i = randomNumber.nextInt(9);
             int j = randomNumber.nextInt(9);
-            if (mineField[j][i].getSymbol() != view.getMINE_CHAR()) {
-                mineField[j][i].setSymbol(view.getMINE_CHAR());
+            if (mineField[j][i].getSymbol() != View.getMINE_CHAR()) {
+                mineField[j][i].setSymbol(View.getMINE_CHAR());
                 minesToSpread--;
             }
         }
