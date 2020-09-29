@@ -7,4 +7,4 @@ If you think that a given pair of coordinates x and y has no mine, you can enter
 
 On the other hand, if the number of nearby mines indicated by the already revealed cells leads you to think that there is a mine underneath a specific cell that has not yet been uncovered, you can enter the same values of x and y followed by the option "mine".
 
-The game ends when accidentally fall on a mine hidden in given cell you thought was free (guess what? You lost!!) or when you guess the positions of all the mines within the field (Surprise, surprise: You won!!).
+The game ends when you accidentally fall upon a mine hidden in given cell you thought was free (guess what? You lost!!) or when you guess the positions of all the mines within the field (Surprise, surprise: You won!!).
