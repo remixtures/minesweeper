@@ -1,4 +1,5 @@
 A Java program that lets you explore a text-based field full of... mines. See if you can guess which cells have a mine underneath.
+Originally developed as a Hyperskill project: https://hyperskill.org/projects/77?track=1
 
 The game starts by asking you the number of mines you want to spread throughout the field. The aim of the goal is to guess on which cells - located on a given coordinate x and a given coordinate y - has the program randomly placed the mines. 
 
